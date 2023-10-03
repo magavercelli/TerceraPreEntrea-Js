@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Roboto:wght@500&family=Young+Serif&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    width: 100%;
+    
+}
+
+.bx-shopping-bag:hover{
+    cursor: pointer;
+}
+/* .imagenUno {
+    width: auto;
+} */
+
+h1{
+    font-family: 'Young Serif', serif;
+    font-size: 48px;
+
+}
+
+
+.bx-shopping-bag{
+font-size: 40px;
+}
+
+nav {
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    padding: 20px;
+    -webkit-box-shadow: -9px 9px 9px -9px rgba(0,0,0,0.44);
+    -moz-box-shadow: -9px 9px 9px -9px rgba(0,0,0,0.44);
+    box-shadow: -9px 9px 9px -9px rgba(0,0,0,0.44);
+   
+    
+}
+
+nav .navbar-nav a {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.contenidoPrincipal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4rem;
+    margin: 4rem;
+    align-content: center;
+    text-align: center;
+}
+
+.imgTres {
+    height: 50%;
+    border: black solid 0.1rem;
+    border-radius: 0.3rem;
+    -webkit-box-shadow: 6px 3px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 3px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 6px 3px 10px -3px rgba(0,0,0,0.75);
+    
+}
+
+.imgTres:hover {
+    cursor: pointer;
+    color: #d299c2;
+}
+
+.botonAgregar {
+    height: 30px;
+    width: 30%;
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    
+}
+
+p {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+}
+.compras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.totalPagar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
